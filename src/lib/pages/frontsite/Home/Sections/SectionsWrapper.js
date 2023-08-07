@@ -4,7 +4,6 @@ import { FrontSiteRoutes } from '@routes/urls';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Container } from 'semantic-ui-react';
-import { SectionInstallation } from './SectionInstallation';
 import { SectionServices } from './SectionServices';
 import SectionTags from './SectionTags';
 import Overridable from 'react-overridable';
@@ -17,7 +16,6 @@ export default class SectionsWrapper extends Component {
         <Overridable id="SectionsWrapper.servicesInstallationSections">
           <>
             <SectionServices />
-            <SectionInstallation />
           </>
         </Overridable>
         <Container fluid id="recent-books">
