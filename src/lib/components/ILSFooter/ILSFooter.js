@@ -35,15 +35,15 @@ const FooterLayout = (props) => {
                 </List>
               </Grid.Column>
               <Grid.Column>
-                <Header as="h4" content="Invenio" />
+                <Header as="h4" content="DigiLib" />
                 <p>
                   Read more about us on: <br />
                   <a
-                    href="https://inveniosoftware.org/"
+                    href="https://stapolar.tech/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    https://inveniosoftware.org/
+                    https://stapolar.tech/
                   </a>
                 </p>
               </Grid.Column>
@@ -54,7 +54,6 @@ const FooterLayout = (props) => {
           <Container>
             <Header as="h4" textAlign="center">
               <Header.Content>Integrated Library System</Header.Content>
-              <Header.Subheader>Powered by INVENIO</Header.Subheader>
             </Header>
           </Container>
         </Container>
