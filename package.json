@@ -1,5 +1,5 @@
 {
-  "name": "@inveniosoftware/react-invenio-app-ils",
+  "name": "@programmeradu/react-invenio-app-ils",
   "version": "1.0.0-alpha.76",
   "description": "Single Page App built with React for InvenioILS",
   "main": "dist/cjs/index.js",
@@ -120,12 +120,12 @@
     "email": "info@inveniosoftware.org"
   },
   "bugs": {
-    "url": "https://github.com/inveniosoftware/react-invenio-app-ils/issues"
+    "url": "https://github.com/programmeradu/react-invenio-app-ils/issues"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/inveniosoftware/react-invenio-app-ils.git"
+    "url": "https://github.com/programmeradu/react-invenio-app-ils.git"
   },
   "publishConfig": {
     "access": "public"
