@@ -14,8 +14,8 @@ import Overridable from 'react-overridable';
 
 export class SectionInstallation extends Component {
   render() {
-    return (
-     
-    );
+    return null;
   }
 }
+
+export default Overridable.component('SectionInstallation', SectionInstallation);
