@@ -92,7 +92,7 @@ const RightCol = ({ hasError, errorMessage, errorHeader }) => (
       <Icon name="users" size="massive" />
     </Header>
     <p>Choose your preferred method to sign in</p>
-   {invenioConfig.APP.ENABLE_OAUTH_LOGIN &&
+    {invenioConfig.APP.ENABLE_OAUTH_LOGIN &&
       Object.keys(invenioConfig.APP.OAUTH_PROVIDERS)
         .filter(
           (providerName) =>
@@ -107,7 +107,7 @@ const RightCol = ({ hasError, errorMessage, errorHeader }) => (
     {invenioConfig.APP.ENABLE_OAUTH_LOGIN &&
       invenioConfig.APP.ENABLE_LOCAL_ACCOUNT_LOGIN && (
         <Divider horizontal>Or</Divider>
-      )} 
+      )}
     {invenioConfig.APP.ENABLE_LOCAL_ACCOUNT_LOGIN && (
       <>
         <LoginWithLocalAccount
